@@ -1,3 +1,6 @@
+// Initialise the database (creates the file + table on first run)
+require('./db/database');
+
 // express module to create our web server
 const express = require('express');
 
